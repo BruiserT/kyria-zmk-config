@@ -21,12 +21,12 @@
         compatible = "zmk,combos";
 
         switch-to-colemak-dh {
-            bindings = <&to 4>;
+            bindings = <&to 3>;
             key-positions = <29 34>;
         };
 
         switch-to-qwerty {
-            bindings = <&to 5>;
+            bindings = <&to 0>;
             key-positions = <29 34>;
         };
     };
