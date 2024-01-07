@@ -64,7 +64,7 @@
 
         Colemak-DH {
             bindings = <
-&trans  &kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &kp U  &kp Y  &kp SEMI  &trans  &trans  &kp A  &hrml LEFT_ALT R  &hrml LEFT_SHIFT S  &hrml LCTRL T  &hrml LEFT_GUI G  &hrmr RIGHT_GUI M  &hrmr RCTRL N  &hrmr RIGHT_SHIFT E  &hrmr RIGHT_ALT I  &kp O  &trans  &trans  &kp Z  &kp X  &kp C  &kp D  &kp V  &trans  &trans  &trans  &trans  &kp K  &kp H  &kp COMMA  &kp DOT  &kp FSLH  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp EQUAL  &kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &kp U  &kp Y  &kp SEMI  &kp MINUS  &kp GRAVE  &kp A  &hrml LEFT_ALT R  &hrml LEFT_SHIFT S  &hrml LCTRL T  &hrml LEFT_GUI G  &hrmr RIGHT_GUI M  &hrmr RCTRL N  &hrmr RIGHT_SHIFT E  &hrmr RIGHT_ALT I  &kp O  &kp APOS  &none  &kp Z  &kp X  &kp C  &kp D  &kp V  &none  &none  &none  &none  &kp K  &kp H  &kp COMMA  &kp DOT  &kp FSLH  &kp BSLH  &none  &none  &kp BSPC  &kp ESC  &to 2  &to 1  &kp ENTER  &kp SPACE  &kp TAB  &none
             >;
         };
 
