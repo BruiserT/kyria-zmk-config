@@ -70,10 +70,7 @@
             //                     | GUI  | DEL  | RET  |  SPACE  |   ESC   |  |   RET   |  SPACE  | TAB  | BSPC  | R-ALT |
 
             bindings = <
-&kp ESC    &kp Q  &kp W             &kp E               &kp R          &kp T                                                       &kp Y              &kp U          &kp I                &kp O              &kp P     &kp BSLH
-&kp TAB    &kp A  &hrml LEFT_ALT S  &hrml LEFT_SHIFT D  &hrml LCTRL F  &hrml LEFT_GUI G                                            &hrmr RIGHT_GUI H  &hrmr RCTRL J  &hrmr RIGHT_SHIFT K  &hrmr RIGHT_ALT L  &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z  &kp X             &kp C               &kp V          &kp B             &kp LSHFT  &kp LSHFT  &mo 1    &kp LSHFT  &kp N              &kp M          &kp COMMA            &kp DOT            &kp FSLH  &kp RCTRL
-                                    &kp LGUI            &kp DEL        &kp RET           &kp SPACE  &kp ESC    &kp RET  &kp SPACE  &kp TAB            &kp BSPC       &kp RALT
+&kp EQUAL  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp MINUS  &kp GRAVE  &kp A  &hrml LEFT_ALT S  &hrml LEFT_SHIFT D  &hrml LCTRL F  &hrml LEFT_GUI G  &hrmr RIGHT_GUI H  &hrmr RCTRL J  &hrmr RIGHT_SHIFT K  &hrmr RIGHT_ALT L  &kp SEMI  &kp SQT  &none  &kp Z  &kp X  &kp C  &kp V  &kp B  &none  &none  &none  &none  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp BACKSLASH  &none  &kp DEL  &kp BACKSPACE  &kp ESCAPE  &none  &none  &kp TAB  &kp ENTER  &kp SPACE  &none
             >;
         };
 
@@ -85,19 +82,13 @@
             //                       |      |      |      |      |      |      |      |      |      |      |      |      |
 
             bindings = <
-&trans  &trans  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans      &bt BT_SEL 3  &bt BT_SEL 4  &trans                                        &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans      &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                            &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_SEL 3  &bt BT_SEL 4  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         Colemak-DH {
             bindings = <
-&trans  &kp Q  &kp W             &kp F               &kp P          &kp B                                             &kp J              &kp L          &kp U                &kp Y              &kp SEMI  &trans
-&trans  &kp A  &hrml LEFT_ALT R  &hrml LEFT_SHIFT S  &hrml LCTRL T  &hrml LEFT_GUI G                                  &hrmr RIGHT_GUI M  &hrmr RCTRL N  &hrmr RIGHT_SHIFT E  &hrmr RIGHT_ALT I  &kp O     &trans
-&trans  &kp Z  &kp X             &kp C               &kp D          &kp V             &trans  &trans  &trans  &trans  &kp K              &kp H          &kp COMMA            &kp DOT            &kp FSLH  &trans
-                                 &trans              &trans         &trans            &trans  &trans  &trans  &trans  &trans             &trans         &trans
+&trans  &kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &kp U  &kp Y  &kp SEMI  &trans  &trans  &kp A  &hrml LEFT_ALT R  &hrml LEFT_SHIFT S  &hrml LCTRL T  &hrml LEFT_GUI G  &hrmr RIGHT_GUI M  &hrmr RCTRL N  &hrmr RIGHT_SHIFT E  &hrmr RIGHT_ALT I  &kp O  &trans  &trans  &kp Z  &kp X  &kp C  &kp D  &kp V  &trans  &trans  &trans  &trans  &kp K  &kp H  &kp COMMA  &kp DOT  &kp FSLH  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
