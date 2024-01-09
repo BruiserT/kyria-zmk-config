@@ -64,19 +64,19 @@
 
         Colemak-DH {
             bindings = <
-&kp GRAVE  &kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &kp U  &kp Y  &kp SEMI  &kp MINUS  &none  &hrml RIGHT_GUI A  &hrml LEFT_ALT R  &hrml LEFT_SHIFT S  &hrml LCTRL T  &kp G  &kp M  &hrmr RCTRL N  &hrmr RIGHT_SHIFT E  &hrmr RIGHT_ALT I  &hrmr RIGHT_GUI O  &none  &to 3  &kp Z  &kp X  &kp C  &kp D  &kp V  &none  &none  &none  &none  &kp K  &kp H  &kp COMMA  &kp DOT  &kp FSLH  &none  &none  &tog 1  &kp BSPC  &to 2  &none  &none  &kp ENTER  &kp SPACE  &mt ESCAPE TAB  &none
+&kp GRAVE  &kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &kp U  &kp Y  &kp SEMI  &kp MINUS  &none  &hrml RIGHT_GUI A  &hrml LEFT_ALT R  &hrml LEFT_SHIFT S  &hrml LCTRL T  &kp G  &kp M  &hrmr RCTRL N  &hrmr RIGHT_SHIFT E  &hrmr RIGHT_ALT I  &hrmr RIGHT_GUI O  &none  &to 3  &kp Z  &kp X  &kp C  &kp D  &kp V  &none  &none  &none  &none  &kp K  &kp H  &kp COMMA  &kp DOT  &kp FSLH  &none  &none  &to 1  &kp BSPC  &to 2  &none  &none  &kp ENTER  &kp SPACE  &mt ESCAPE TAB  &none
             >;
         };
 
         Nav {
             bindings = <
-&none  &none  &kp PAGE_UP  &kp UP_ARROW  &kp PAGE_DOWN  &none  &none  &none  &none  &none  &none  &none  &none  &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none  &none  &none  &none  &none  &none  &none  &none  &none  &kp HOME  &kp INSERT  &kp END  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &trans  &trans  &trans  &to 0  &to 0  &trans  &trans  &trans  &none
+&none  &none  &kp PAGE_UP  &kp UP_ARROW  &kp PAGE_DOWN  &none  &none  &none  &none  &none  &none  &none  &none  &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none  &none  &none  &none  &none  &none  &none  &none  &none  &kp HOME  &kp INSERT  &kp END  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &to 0  &trans  &to 2  &none  &to 0  &trans  &trans  &trans  &none
             >;
         };
 
         Sym {
             bindings = <
-&none  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &none  &none  &hrml LEFT_GUI LESS_THAN  &hrml LEFT_ALT PERCENT  &hrml LEFT_SHIFT LEFT_PARENTHESIS  &hrml LEFT_CONTROL LEFT_BRACE  &kp LEFT_BRACKET  &kp KP_EQUAL  &hrmr RCTRL QUESTION  &hrmr RIGHT_SHIFT APOSTROPHE  &hrmr RIGHT_ALT PLUS  &hrmr RIGHT_GUI ASTERISK  &none  &none  &kp GREATER_THAN  &kp DOLLAR  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &none  &none  &none  &none  &kp AT_SIGN  &kp KP_EQUAL  &kp DOUBLE_QUOTES  &kp KP_MINUS  &kp BACKSLASH  &none  &none  &trans  &trans  &trans  &to 0  &to 0  &trans  &trans  &trans  &none
+&none  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &none  &none  &hrml LEFT_GUI LESS_THAN  &hrml LEFT_ALT PERCENT  &hrml LEFT_SHIFT LEFT_PARENTHESIS  &hrml LEFT_CONTROL LEFT_BRACE  &kp LEFT_BRACKET  &kp KP_EQUAL  &hrmr RCTRL QUESTION  &hrmr RIGHT_SHIFT APOSTROPHE  &hrmr RIGHT_ALT PLUS  &hrmr RIGHT_GUI ASTERISK  &none  &none  &kp GREATER_THAN  &kp DOLLAR  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &none  &none  &none  &none  &kp AT_SIGN  &kp KP_EQUAL  &kp DOUBLE_QUOTES  &kp KP_MINUS  &kp BACKSLASH  &none  &none  &to 0  &trans  &to 2  &none  &to 0  &trans  &trans  &trans  &none
             >;
         };
 
@@ -88,7 +88,7 @@
             //                       |      |      |      |      |      |      |      |      |      |      |      |      |
 
             bindings = <
-&none  &none  &none  &bt BT_CLR  &none  &none  &none  &kp F1  &kp F2  &kp F4  &kp F5  &none  &none  &none  &none  &bt BT_SEL 0  &bt BT_SEL 1  &none  &none  &kp F6  &kp F7  &kp F8  &kp F9  &none  &none  &none  &none  &bt BT_SEL 2  &bt BT_SEL 3  &none  &none  &none  &none  &none  &none  &kp F10  &kp F11  &kp F12  &none  &none  &none  &none  &none  &none  &to 0  &to 0  &none  &none  &none  &none
+&none  &none  &none  &bt BT_CLR  &none  &none  &none  &kp F1  &kp F2  &kp F4  &kp F5  &none  &none  &none  &none  &bt BT_SEL 0  &bt BT_SEL 1  &none  &none  &kp F6  &kp F7  &kp F8  &kp F9  &none  &none  &none  &none  &bt BT_SEL 2  &bt BT_SEL 3  &none  &none  &none  &none  &none  &none  &kp F10  &kp F11  &kp F12  &none  &none  &none  &to 0  &none  &tog 2  &none  &to 0  &none  &none  &none  &none
             >;
         };
 
@@ -100,7 +100,7 @@
             //                     | GUI  | DEL  | RET  |  SPACE  |   ESC   |  |   RET   |  SPACE  | TAB  | BSPC  | R-ALT |
 
             bindings = <
-&kp EQUAL  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp MINUS  &none  &hrml LEFT_GUI A  &hrml LEFT_ALT S  &hrml LEFT_SHIFT D  &hrml LCTRL F  &kp G  &kp H  &hrmr RCTRL J  &hrmr RIGHT_SHIFT K  &hrmr RIGHT_ALT L  &hrmr RIGHT_GUI SEMI  &none  &none  &kp Z  &kp X  &kp C  &kp V  &kp B  &none  &none  &none  &none  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &none  &none  &kp DEL  &kp BACKSPACE  &kp ESCAPE  &to 0  &to 0  &kp ENTER  &kp SPACE  &kp TAB  &none
+&kp GRAVE  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp MINUS  &none  &hrml LEFT_GUI A  &hrml LEFT_ALT S  &hrml LEFT_SHIFT D  &hrml LCTRL F  &kp G  &kp H  &hrmr RCTRL J  &hrmr RIGHT_SHIFT K  &hrmr RIGHT_ALT L  &hrmr RIGHT_GUI SEMI  &none  &to 3  &kp Z  &kp X  &kp C  &kp V  &kp B  &none  &none  &none  &none  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &none  &none  &to 1  &kp BACKSPACE  &to 2  &none  &none  &kp ENTER  &kp SPACE  &mt ESCAPE TAB  &none
             >;
         };
     };
