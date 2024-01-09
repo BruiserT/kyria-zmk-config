@@ -70,13 +70,13 @@
 
         Nav {
             bindings = <
-&none  &none  &kp PAGE_UP  &kp UP_ARROW  &kp PAGE_DOWN  &none  &none  &none  &none  &none  &none  &none  &none  &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none  &none  &none  &none  &none  &none  &none  &none  &none  &kp HOME  &kp INSERT  &kp END  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &to 0  &trans  &to 2  &none  &to 0  &trans  &trans  &trans  &none
+&none  &none  &kp PAGE_UP  &kp UP_ARROW  &kp PAGE_DOWN  &none  &none  &none  &none  &none  &none  &none  &none  &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none  &none  &none  &none  &none  &none  &none  &none  &none  &kp HOME  &kp INSERT  &kp END  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &to 2  &trans  &to 0  &none  &to 0  &trans  &trans  &trans  &none
             >;
         };
 
         Sym {
             bindings = <
-&none  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &none  &none  &hrml LEFT_GUI LESS_THAN  &hrml LEFT_ALT PERCENT  &hrml LEFT_SHIFT LEFT_PARENTHESIS  &hrml LEFT_CONTROL LEFT_BRACE  &kp LEFT_BRACKET  &kp KP_EQUAL  &hrmr RCTRL QUESTION  &hrmr RIGHT_SHIFT APOSTROPHE  &hrmr RIGHT_ALT PLUS  &hrmr RIGHT_GUI ASTERISK  &none  &none  &kp GREATER_THAN  &kp DOLLAR  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &none  &none  &none  &none  &kp AT_SIGN  &kp KP_EQUAL  &kp DOUBLE_QUOTES  &kp KP_MINUS  &kp BACKSLASH  &none  &none  &to 0  &trans  &to 1  &none  &to 0  &trans  &trans  &trans  &none
+&none  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &none  &none  &hrml LEFT_GUI LESS_THAN  &hrml LEFT_ALT PERCENT  &hrml LEFT_SHIFT LEFT_PARENTHESIS  &hrml LEFT_CONTROL LEFT_BRACE  &kp LEFT_BRACKET  &kp KP_EQUAL  &hrmr RCTRL QUESTION  &hrmr RIGHT_SHIFT APOSTROPHE  &hrmr RIGHT_ALT PLUS  &hrmr RIGHT_GUI ASTERISK  &none  &none  &kp GREATER_THAN  &kp DOLLAR  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &none  &none  &none  &none  &kp AT_SIGN  &kp KP_EQUAL  &kp DOUBLE_QUOTES  &kp KP_MINUS  &kp BACKSLASH  &none  &none  &to 1  &trans  &to 0  &none  &to 0  &trans  &trans  &trans  &none
             >;
         };
 
